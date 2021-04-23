@@ -1,0 +1,430 @@
+/* Body and general colors: Line 2 - 17 */
+body {
+  background-color: #424549 !important;
+  color: #c2c2c5 !important;
+  /* background-color: #343a40 !important; */
+}
+body,
+h1,
+p,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+#gre {
+  color: #a7a7a8 !important;
+}
+#myred {
+  color: #e437a1;
+}
+
+#lightgre {
+  color: #32ea91;
+  /* color: #32ea91; */
+}
+
+#dimwhite {
+  color: #d6d2d2 !important;
+}
+#dim2 {
+  color: #e9e3e3 !important;
+}
+#crumbs {
+  color: #d6d2d2 !important;
+  text-decoration: none;
+}
+
+a,
+a:hover {
+  text-decoration: none !important;
+}
+
+/* Carousel styling line:  2 - 5 */
+.carousel-caption {
+  top: 28%;
+  bottom: auto;
+  padding-top: 20px;
+}
+
+/* Navbar Styling: line 7 -  */
+#culink {
+  color: #a3a8ac;
+  /* color: #6c757d; */
+  font-weight: 700;
+}
+
+#culink:hover {
+  color: #e43c5c;
+}
+
+#homeculink {
+  color: #e43c5c;
+  font-weight: 700;
+}
+#navb {
+  background-color: black;
+  height: 100px;
+}
+@media screen and (max-width: 768px) {
+}
+
+.log1 {
+  background-color: none;
+}
+
+.logo {
+  height: 150px;
+  padding-left: 26px;
+  -webkit-animation: spin 5s infinite;
+  animation: spin 5s infinite;
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(-360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+
+  to {
+    -moz-transform: rotateY(-360deg);
+    -ms-transform: rotateY(-360deg);
+    transform: rotateY(-360deg);
+  }
+}
+
+/* Home Page Styling */
+
+/* Background Styling */
+#bakcontaina {
+  position: relative;
+  height: 700px;
+  overflow: hidden;
+}
+
+#myVideo {
+  position: absolute;
+  right: 0;
+  /* bottom: 0; */
+  min-width: 100%;
+  min-height: 100%;
+}
+#contdivsbackg {
+  position: absolute;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+#pabak {
+  padding-top: 130px;
+}
+#divrelative {
+  position: relative;
+  overflow: hidden;
+  height: max-content;
+}
+
+#divdis1 {
+  /* position: absolute; */
+  position: sticky;
+  top: 0;
+  opacity: 1;
+  animation: mychangop 15s linear infinite;
+}
+#divdis2 {
+  /* position: absolute; */
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  animation: mychangop2 15s linear infinite;
+}
+
+@keyframes mychangop {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes mychangop2 {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  35% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Section 1 Styling */
+.sec1 {
+  display: flex;
+  justify-content: center;
+}
+#section1,
+#section5 {
+  background-color: black;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+#bluish {
+  color: #32ea91;
+}
+#sectiony {
+  background-color: black;
+}
+
+/* Section 2 Styling */
+#myred2 {
+  color: #f7567e;
+}
+
+/* Section 3 Styling */
+#sectionthree {
+  background-image: url("../images/section3/pic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+#thrreind {
+  background: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+}
+#spancol {
+  color: #dad2d2;
+}
+
+/* Section 4  Styling*/
+#section4 {
+  background-color: black;
+}
+
+#sect4a {
+  background-image: url("../images/section4/sec4d.jpg");
+  height: 500px;
+}
+#sect4b {
+  background-image: url("../images/section4/sec4b.webp");
+  height: 238px;
+}
+#sect4c {
+  background-image: url("../images/section4/sec4c.webp");
+  height: 238px;
+}
+
+#sect4a,
+#sect4b,
+#sect4c {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#fouind {
+  background: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  transition: background 1s;
+}
+
+#fouind:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+#fouind:hover #titlse4 {
+  color: #a84c8d !important;
+}
+
+#titlse4 {
+  color: #ee407d;
+  transition: color 1s;
+}
+
+#sec4top {
+  position: relative;
+  top: 25px;
+}
+
+#sec4bot {
+  position: relative;
+  top: 300px;
+}
+#sec4bot2 {
+  position: relative;
+  top: 100px;
+}
+
+/* About us, Contact, Gallery and Blog Intro div */
+#contdiv1,
+#abtdiv1,
+#blogdiv1,
+#galediv1 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: mymove 65s linear infinite;
+}
+
+@keyframes mymove {
+  0% {
+    background-position: center;
+  }
+  50% {
+    background-position: top right;
+  }
+  100% {
+    background-position: center;
+  }
+}
+
+#introshadow {
+  background: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+
+/* Blog Page Styling */
+#blogdiv1 {
+  background-image: url("../images/blog/music.jpg");
+}
+
+/* Contact Styling  */
+#contdiv1 {
+  background-image: url("../images/contact/recos.jpg");
+}
+#talk {
+  background-color: black;
+}
+/* About Page Styling */
+#abtdiv1 {
+  background-image: url("../images/about/ab1.jpg");
+}
+
+/* Gallery Page Styling */
+#galediv1 {
+  background-image: url("../images/gallery/imgc.jpeg");
+}
+
+#galeryrel {
+  position: relative;
+  overflow: hidden;
+}
+#galeryrel:hover #galerypos {
+  opacity: 1;
+}
+#galeryrel:hover #mygaleimage {
+  /* max-width: 120%;      */
+  transform: scale(
+    1.2
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+#galerypos {
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 1s;
+}
+#mygaleimage {
+  max-width: 100%;
+  height: auto;
+  transition: 1s;
+}
+#mypading {
+  padding-top: 30%;
+}
+#mypading2 {
+  padding-top: 70%;
+}
+#mypading3 {
+  padding-top: 40%;
+}
+#mypading4 {
+  padding-top: 50%;
+}
+
+/* Footer Page Styling */
+#foota4 {
+  background-color: #0f0f0f;
+}
+
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 742px) {
+  #bakcontaina {
+    height: 500px;
+  }
+  #pabak {
+    padding-top: 0px;
+  }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+}
+
+/* Not Used Section 
+
+#redcolorlogo
+{
+    color: #ea2328;
+}
+#pinkcolorlog{
+    color: #d91a5d;
+}
+
+ <div class="bg-light" id="temp">
+    <div class="row h-100 justify-content-center align-items-center">
+        <form class="col-6">
+        
+        <div class="form-group">
+            <label for="formGroupExampleInput2">Another label</label>
+        </div>
+        </form>   
+    </div>
+</div>
+ */

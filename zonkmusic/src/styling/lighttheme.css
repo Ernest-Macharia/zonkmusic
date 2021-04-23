@@ -1,0 +1,15 @@
+#blogdiv1
+{
+    background-image: url('../images/blog/music.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+
+#blogind {
+    background: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}

@@ -1,0 +1,71 @@
+.footer-section {
+  background: #000000;
+  padding: 100px 0 85px;
+}
+
+.footer-widget {
+  padding-top: 2px;
+}
+
+.footer-widget h2 {
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.footer-widget ul {
+  list-style: none;
+}
+
+.footer-widget ul li a {
+  display: inline-block;
+  color: #6a7080;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.copyright {
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #505565;
+  padding: 10px 0 25px;
+}
+
+.social-links a {
+  display: inline-block;
+  color: #6a7080;
+  font-size: 18px;
+  margin-right: 35px;
+}
+
+.linkdin i {
+  color: blue;
+  font-size: 5em;
+  padding: 8px;
+}
+
+.github i {
+  color: black;
+  font-size: 5em;
+  padding: 8px;
+}
+
+.instagram i {
+  color: purple;
+  font-size: 5em;
+  padding: 8px;
+}
+
+.facebook i {
+  color: blue;
+  font-size: 5em;
+  padding: 8px;
+}
+
+.twitter i {
+  color: blue;
+  font-size: 5em;
+  padding: 8px;
+}
