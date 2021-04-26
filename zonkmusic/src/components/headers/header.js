@@ -7,7 +7,7 @@ import Backgro from './backgro';
 
 
 
-class MyHeader extends Component {
+class Header extends Component {
 
     render() {
         return (
@@ -24,4 +24,4 @@ class MyHeader extends Component {
 
 }
 
-export default MyHeader;
+export default Header;

@@ -4,7 +4,7 @@ import Navbar from '../components/headers/navbar' ;
 
 import Sectione from './section1';
 import Sectiontwo from './section2';
-class Contactclass extends Component{
+class Shows extends Component{
 
     render(){
         return(
@@ -18,4 +18,4 @@ class Contactclass extends Component{
 
 }
 
-export default Contactclass ;
+export default Shows ;

@@ -2,11 +2,11 @@ import { Component } from "react";
 import { Link } from "react-router-dom";
 
 
-import img1 from '../../images/section1/seca.jpg';
-import img2 from '../../images/section1/ply2.jpg';
-import img3 from '../../images/section1/secd.jpg';
-import img4 from '../../images/section1/secc.jpg';
-
+import img1 from '../../images/section1/zonk1.jpg';
+import img2 from '../../images/section1/zonk2.jpg';
+import img3 from '../../images/section1/zonk3.jpg';
+import img4 from '../../images/section1/zonk4.jpg';
+import img5 from '../../images/section1/zonk5.jpg';
 
 class Sectione extends Component {
 
@@ -19,6 +19,10 @@ class Sectione extends Component {
         }
     }
 
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
+
     render() {
         return (
 
@@ -27,7 +31,7 @@ class Sectione extends Component {
                 <div className="container-fluid" >
                     <div className="py-5 px-lg-5" >
                         
-                        <h4 id="myred2" className="display-4 font-weight-normal"> Music Genres </h4>
+                        <h4 id="eve" className="display-4 font-weight-normal"> Music Genres </h4>
                         <div className="pt-5"></div>
 
                         <div className="row" >
@@ -38,9 +42,9 @@ class Sectione extends Component {
                                         <div id="mypading4" className="text-center">
                                             <span className="border border-warning p-2 px-3 mr-2">
                                                 
-                                                <Link to="/shows" className="text-light" >
+                                                <a href="/shows" className="text-light" >
                                                    Learn More
-                                                </Link>
+                                                </a>
                                             </span>
 
 
@@ -61,9 +65,9 @@ class Sectione extends Component {
                                         <div id="mypading4" className="text-center">
                                             <span className="border border-warning p-2 px-3 mr-2">
                                                 
-                                                <Link to="/shows" className="text-light" >
+                                                <a  href="/shows" className="text-light" >
                                                    Learn More
-                                                </Link>
+                                                </a>
                                             </span>
 
 
@@ -82,9 +86,9 @@ class Sectione extends Component {
                                         <div id="mypading4" className="text-center">
                                             <span className="border border-warning p-2 px-3 mr-2">
                                                 
-                                                <Link to="/shows" className="text-light" >
+                                                <a href="/shows" className="text-light" >
                                                    Learn More
-                                                </Link>
+                                                </a>
                                             </span>
 
 
@@ -107,9 +111,9 @@ class Sectione extends Component {
                                         <div id="mypading4" className="text-center">
                                             <span className="border border-warning p-2 px-3 mr-2">
                                                 
-                                                <Link to="/shows" className="text-light" >
+                                                <a href="/shows" className="text-light" >
                                                    Learn More
-                                                </Link>
+                                                </a>
                                             </span>
 
 
@@ -125,14 +129,14 @@ class Sectione extends Component {
                             </div>
                             <div className="col-xl-6 col-md-6  col-xl-6" >
                                 <div id="galeryrel">
-                                    <img src={img4} alt="gallery one " id="mygaleimage" />
+                                    <img src={img5} alt="gallery one " id="mygaleimage" />
                                     <div id="galerypos" >
                                         <div id="mypading4" className="text-center">
                                             <span className="border border-warning p-2 px-3 mr-2">
                                                 
-                                                <Link to="/shows" className="text-light" >
+                                                <a href="/shows" className="text-light" >
                                                    Learn More
-                                                </Link>
+                                                </a>
                                             </span>
 
 

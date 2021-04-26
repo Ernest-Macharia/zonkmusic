@@ -9,7 +9,7 @@ import Section5 from './section5';
 
 
 
-class MyHeader extends Component {
+class Content extends Component {
 
     render() {
         return (
@@ -27,4 +27,4 @@ class MyHeader extends Component {
 
 }
 
-export default MyHeader;
+export default Content;

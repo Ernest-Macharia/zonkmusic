@@ -1,21 +1,21 @@
 import { Component } from "react"
 
-import gale1 from '../images/gallery/gale1.jpg';
-import gale2 from '../images/gallery/gale2.jpg';
-import gale3 from '../images/gallery/gale3.jpg';
-import gale4 from '../images/gallery/gale4.jpg';
-import gale5 from '../images/gallery/gale5.jpg';
-import gale6 from '../images/gallery/gale6.jpg';
-import gale7 from '../images/gallery/gale7.png';
-import gale8 from '../images/gallery/gale8.jpeg';
-import gale9 from '../images/gallery/gale9.jpg';
-import galea from '../images/gallery/galea.jpg';
+import gale1 from '../images/gallery/zonk3.jpg';
+import gale2 from '../images/gallery/zonk2.jpg';
+import gale3 from '../images/gallery/zonk4.jpg';
+import gale4 from '../images/gallery/inst2.jpg';
+import gale5 from '../images/gallery/inst1.jpg';
+import gale6 from '../images/gallery/3.png';
+import gale7 from '../images/gallery/monchoka.png';
+import gale8 from '../images/gallery/zonk1.jpg';
+import gale9 from '../images/gallery/africa.png';
+import galea from '../images/gallery/event2.jpg';
 
 class Sectiontwo extends Component {
 
     render() {
-        let instlink = "https://www.instagram.com/essex_fame/?hl=en";
-        let fabllink = "https://web.facebook.com/EssexFame.Executives/?_rdc=1&_rdr";
+        let instlink = "https://www.instagram.com/zonkmusic/";
+        let fabllink = "https://www.facebook.com/zonkmusic.20";;
 
         return (
             <div className="container-lg">
@@ -36,7 +36,7 @@ class Sectiontwo extends Component {
                                             </span>
                                             <span className="border border-warning p-2 px-3 mr-2">
                                                 <a href={fabllink} className="text-light">
-                                                    <i className="fa fa-facebook-square" aria-hidden="true"></i>
+                                                    <i className="fa fa-facebook" aria-hidden="true"></i>
                                                 </a>
                                             </span>
 
@@ -56,7 +56,7 @@ class Sectiontwo extends Component {
                                             </span>
                                             <span className="border border-warning p-2 px-3 mr-2">
                                                 <a href={fabllink} className="text-light">
-                                                    <i className="fa fa-facebook-square" aria-hidden="true"></i>
+                                                    <i className="fa fa-facebook" aria-hidden="true"></i>
                                                 </a>
                                             </span>
 
@@ -74,13 +74,13 @@ class Sectiontwo extends Component {
                                     <div id="galerypos" >
                                         <div id="mypading2" className="text-center">
                                             <span className="border border-warning p-2 px-3 mr-2">
-                                                <a href={'zonk'} className="text-light">
+                                                <a href={instlink} className="text-light">
                                                     <i className="fa fa-instagram" aria-hidden="true"></i>
                                                 </a>
                                             </span>
                                             <span className="border border-warning p-2 px-3 mr-2">
-                                                <a href={'zonk'} className="text-light">
-                                                    <i className="fa fa-facebook-square" aria-hidden="true"></i>
+                                                <a href={fabllink} className="text-light">
+                                                    <i className="fa fa-facebook" aria-hidden="true"></i>
                                                 </a>
                                             </span>
 
@@ -89,6 +89,7 @@ class Sectiontwo extends Component {
                                 </div>
                             </div>
                         </div>
+                        
                         <div className="col-md-4">
 
                             <div className="p-2 mb-2 border border-secondary">
@@ -103,7 +104,7 @@ class Sectiontwo extends Component {
                                             </span>
                                             <span className="border border-warning p-2 px-3 mr-2">
                                                 <a href={fabllink} className="text-light">
-                                                    <i className="fa fa-facebook-square" aria-hidden="true"></i>
+                                                    <i className="fa fa-facebook" aria-hidden="true"></i>
                                                 </a>
                                             </span>
 
@@ -124,7 +125,7 @@ class Sectiontwo extends Component {
                                             </span>
                                             <span className="border border-warning p-2 px-3 mr-2">
                                                 <a href={fabllink} className="text-light">
-                                                    <i className="fa fa-facebook-square" aria-hidden="true"></i>
+                                                    <i className="fa fa-facebook" aria-hidden="true"></i>
                                                 </a>
                                             </span>
 
@@ -143,13 +144,13 @@ class Sectiontwo extends Component {
                                     <div id="galerypos" >
                                         <div id="mypading2" className="text-center">
                                             <span className="border border-warning p-2 px-3 mr-2">
-                                                <a href={'zonk'} className="text-light">
+                                                <a href={instlink} className="text-light">
                                                     <i className="fa fa-instagram" aria-hidden="true"></i>
                                                 </a>
                                             </span>
                                             <span className="border border-warning p-2 px-3 mr-2">
-                                                <a href={'zonk'} className="text-light">
-                                                    <i className="fa fa-facebook-square" aria-hidden="true"></i>
+                                                <a href={fabllink} className="text-light">
+                                                    <i className="fa fa-facebook" aria-hidden="true"></i>
                                                 </a>
                                             </span>
 
@@ -173,7 +174,7 @@ class Sectiontwo extends Component {
                                             </span>
                                             <span className="border border-warning p-2 px-3 mr-2">
                                                 <a href={fabllink} className="text-light">
-                                                    <i className="fa fa-facebook-square" aria-hidden="true"></i>
+                                                    <i className="fa fa-facebook" aria-hidden="true"></i>
                                                 </a>
                                             </span>
 
@@ -194,7 +195,7 @@ class Sectiontwo extends Component {
                                             </span>
                                             <span className="border border-warning p-2 px-3 mr-2">
                                                 <a href={fabllink} className="text-light">
-                                                    <i className="fa fa-facebook-square" aria-hidden="true"></i>
+                                                    <i className="fa fa-facebook" aria-hidden="true"></i>
                                                 </a>
                                             </span>
 
@@ -217,7 +218,7 @@ class Sectiontwo extends Component {
                                             </span>
                                             <span className="border border-warning p-2 px-3 mr-2">
                                                 <a href={fabllink} className="text-light">
-                                                    <i className="fa fa-facebook-square" aria-hidden="true"></i>
+                                                    <i className="fa fa-facebook" aria-hidden="true"></i>
                                                 </a>
                                             </span>
 
@@ -238,7 +239,7 @@ class Sectiontwo extends Component {
                                             </span>
                                             <span className="border border-warning p-2 px-3 mr-2">
                                                 <a href={fabllink} className="text-light">
-                                                    <i className="fa fa-facebook-square" aria-hidden="true"></i>
+                                                    <i className="fa fa-facebook" aria-hidden="true"></i>
                                                 </a>
                                             </span>
 

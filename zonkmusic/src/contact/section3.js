@@ -17,9 +17,9 @@ class Sectione extends Component {
                     <div className="col-md-4 text-l" id="dim2">
                         <div className="pt-5">
                             <h4 id="myred2" className="font-weight- text-"> Contact Info </h4>
-                            <h3 className="display-4 font-weight-normal" id="lightgre">Contact </h3>
+                            
                             <div>
-                                <h5 className="font-weight-normal text-">Location </h5>
+                                <h5 id="myred2" className="font-weight-normal text-">Location </h5>
                                 <p>
                                     <i className="fa fa-map-marker" aria-hidden="true"></i> &nbsp;&nbsp;
                                     Shelter Afrique House, <br /> 
@@ -27,13 +27,13 @@ class Sectione extends Component {
                                     <br />
                                 </p>
                                 <p></p>
-                                <h5 className="font-weight-normal text-">Phone</h5>
+                                <h5 id="myred2" className="font-weight-normal text-">Phone</h5>
                                 <p>
                                     <i className="fa fa-phone " aria-hidden="true"></i> &nbsp; +254724990517 | 0724990517 
 
                                 </p>
                                 <p></p>
-                                <h3 className="font-weight-normal text-" >Email</h3>
+                                <h3 id="myred2" className="font-weight-normal text-" >Email</h3>
                                 <p>
                                     <i className="fa fa-envelope-o" aria-hidden="true"></i> &nbsp; &nbsp;
                                     info@zonkmusic.com

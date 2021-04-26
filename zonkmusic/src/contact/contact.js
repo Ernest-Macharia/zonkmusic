@@ -1,11 +1,11 @@
 import { Component } from "react"
 import Navbar from '../components/headers/navbar' ;
-import ContactForm from "./contactForm";
+
 
 import Sectione from './section1';
 import Sectiontwo from './section2';
 import Sectionthree from './section3';
-class Contactclass extends Component{
+class Contact extends Component{
 
     render(){
         return(
@@ -21,4 +21,4 @@ class Contactclass extends Component{
 
 }
 
-export default Contactclass ;
+export default Contact ;

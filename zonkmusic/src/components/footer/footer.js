@@ -4,7 +4,7 @@ import { Component } from "react";
 import Footane from './foota1';
 import Foottwo from './foota2';
 
-class FootaCont extends Component{
+class Footer extends Component{
 
 
     render() {
@@ -20,4 +20,4 @@ class FootaCont extends Component{
 
 }
 
-export default FootaCont ;
+export default Footer ;

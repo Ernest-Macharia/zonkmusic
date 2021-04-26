@@ -67,7 +67,27 @@ a:hover {
 }
 #navb {
   background-color: black;
-  height: 100px;
+  height: 50px;
+  @media (min-width: 576px) {
+    #navb {
+      max-width: 540px;
+    }
+  }
+  @media (min-width: 768px) {
+    #navb {
+      max-width: 720px;
+    }
+  }
+  @media (min-width: 992px) {
+    #navb {
+      max-width: 960px;
+    }
+  }
+  @media (min-width: 1200px) {
+    #navb {
+      max-width: 1140px;
+    }
+  }
 }
 @media screen and (max-width: 768px) {
 }
@@ -77,8 +97,9 @@ a:hover {
 }
 
 .logo {
-  height: 150px;
+  height: 160px;
   padding-left: 26px;
+  padding-top: 50px;
   -webkit-animation: spin 5s infinite;
   animation: spin 5s infinite;
 }
@@ -111,12 +132,12 @@ a:hover {
 /* Background Styling */
 #bakcontaina {
   position: relative;
-  height: 700px;
+  height: 600px;
   overflow: hidden;
 }
 
 #myVideo {
-  position: absolute;
+  position: relative;
   right: 0;
   /* bottom: 0; */
   min-width: 100%;
@@ -151,6 +172,10 @@ a:hover {
   top: 0;
   opacity: 0;
   animation: mychangop2 15s linear infinite;
+}
+.disp {
+  font-size: 25px;
+  color: #e437a1;
 }
 
 @keyframes mychangop {
@@ -328,7 +353,7 @@ a:hover {
 
 /* Blog Page Styling */
 #blogdiv1 {
-  background-image: url("../images/blog/music.jpg");
+  background-image: url("../images/blog/blog.png");
 }
 
 /* Contact Styling  */
@@ -340,12 +365,19 @@ a:hover {
 }
 /* About Page Styling */
 #abtdiv1 {
-  background-image: url("../images/about/ab1.jpg");
+  background-image: url("../images/show.jpg");
+}
+
+/* Events Page Styling */
+#eve {
+  color: #f7567e;
+  display: flex;
+  justify-content: center;
 }
 
 /* Gallery Page Styling */
 #galediv1 {
-  background-image: url("../images/gallery/imgc.jpeg");
+  background-image: url("../images/section1/zonk3.jpg");
 }
 
 #galeryrel {
@@ -391,6 +423,9 @@ a:hover {
 /* Footer Page Styling */
 #foota4 {
   background-color: #0f0f0f;
+}
+#foota4:hover {
+  background: rgba(0, 0, 0, 0.8);
 }
 
 /* On screens that are 992px wide or less, the background color is blue */

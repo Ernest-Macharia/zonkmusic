@@ -67,27 +67,25 @@ class Footathree extends Component {
                 <div className="row">
                     <div className="col-xl-6 col-lg-7 order-lg-2">
                         <div className="row">
-                            <div className="col-sm-3">
+                            <div className="col-sm-4">
                                 <div className="footer-widget">
                                     
                                     <ul>
-                                    <h2 >About</h2>
+                                    <h2>About</h2>
                                     <div id="myred2">
-                                    <p>
-                                        <a href="/about" id="myred">Coverage</a>
-                                        </p>
-                                        <p>
+                                    
+                                        <>
                                         <a href="/about" id="myred">Who we are</a>
-                                        </p>
+                                        </>
                                         <p>
-                                        <a href="about" id="myred">Our Staff</a>
+                                        <a href="/about" id="myred">Our Staff</a>
                                         </p>
                                         </div>
                                     </ul>
                                     
                                 </div>
                             </div>
-                            <div className="col-sm-3">
+                            <div className="col-sm-4">
                                 <div className="footer-widget">
                                     
                                     <ul>
@@ -98,19 +96,44 @@ class Footathree extends Component {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-sm-3">
+                            <div className="col-sm-4">
                                 <div className="footer-widget">
                                     
                                     <ul>
                                     <h2>Shows</h2>
                                     <div id="myred2">
-                                        <p><a href="/shows" id="myred">New shows</a></p>
+                                        
                                         <p><a href="/shows" id="myred">Our Shows</a></p>
+                                        </div>
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+                            </div>
+                            <div className="row">
+                            <div className="col-sm-4">
+                                <div className="footer-widget">
+                                    
+                                    <ul>
+                                    <h2>Events</h2>
+                                    <div id="myred2">
+                                        <p><a href="/events" id="myred">Our Events</a></p>
                                         </div>
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-sm-3" >
+                            <div className="col-sm-4">
+                                <div className="footer-widget">
+                                    
+                                    <ul>
+                                    <h2>Gallery</h2>
+                                    <div id="myred2">
+                                        <p><a href="/gallery" id="myred">Photos</a></p>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="col-sm-4" >
                                 <div className="footer-widget">
                                     
                                     <ul>

@@ -12,15 +12,18 @@ class Sectiontwo extends Component {
         super(props)
         console.log(props);
     }
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
 
     render() {
         let chkroute = this.props.chkroute;
         let mydiv ;
         if(chkroute === "home"){
             mydiv = <div className="py-lg-3">
-                    <Link to="/about" className="btn btn-danger text-white p-2 rounded" >
-                        &nbsp;&nbsp;&nbsp; Learn More &nbsp;&nbsp;&nbsp;
-                    </Link>
+                    <a href="/about" className="btn btn-danger text-white p-2 rounded" >
+                        &nbsp;&nbsp;&nbsp; Curious? &nbsp;&nbsp;&nbsp;
+                    </a>
                 </div>
         }
         else{

@@ -1,5 +1,4 @@
 import { Component } from "react";
-import { Link } from "react-router-dom";
 
 import Vida from '../../images/carousel/vidone.mp4';
 import Logo from './logo'
@@ -55,32 +54,26 @@ class Bakground extends Component {
                                         <div id="divrelative">
                                             <div id="divdis1">
                                                 
-                                                <h4 className="display-4 font-weight-normal">
+                                                <h4 className="display-3 font-weight-normal">
                                                      Black to the Future
                                                 </h4>
-                                                <span className="">
+                                                <span className="disp">
                                                     ZonkMusic - Introducing African culture and diversity
                                                     through music to the World
                                                 </span>
-                                                <p className="pt-4">
-                                                    <Link to="/about" className="btn btn-danger p-3" >
-                                                        Learn More
-                                                    </Link>
-                                                </p>
+                                                
                                             </div>
                                             <div id="divdis2">
                                                 
-                                                <h4 className="display-4 font-weight-normal">
+                                                <h4 className="display-3 font-weight-normal">
                                                     Promoting Africa Local Content
                                                 </h4>
-                                                <span className="">
+                                                <span className="disp">
                                                     Showcasing the best of African untapped artistic talent.
                                                     Inspiring and growing African to self-actualization
                                                 </span>
                                                 <p className="pt-4">
-                                                    <Link to="/about" className="btn btn-danger p-3" >
-                                                        Learn More
-                                                    </Link>
+                                                    
                                                 </p>
                                             </div>
 

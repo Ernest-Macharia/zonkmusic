@@ -18,18 +18,18 @@ class MyNavbar extends Component {
         
 
         return (
-            <div>
+            <div id="navb">
 
 
                 {/* Start */}
-                <nav id="navb" className="navbar navbar-expand-md fixed='top' text-secondary ">
+                <nav  className="navbar navbar-expand-md fixed-top text-secondary ">
 
                     <Link to="/" className="navbar-brand " id="culink">
                         ZonkMusic
                     </Link>
 
                     <button className="navbar-toggler" data-toggle="collapse" data-target="#collapsediv">
-                        <i className="fa fa-bars  text-secondary" aria-hidden="true"></i>
+                        <i className="fa fa-bars  text-secondary" ></i>
                     </button>
 
                     <div className="collapse navbar-collapse" id="collapsediv">
@@ -62,6 +62,12 @@ class MyNavbar extends Component {
                                 <Link to="/shows" className="nav-link" 
                                     id={`${myroute === 'shows' ? 'homeculink' : 'culink'}`}>
                                         Shows
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to="/events" className="nav-link" 
+                                    id={`${myroute === 'events' ? 'homeculink' : 'culink'}`}>
+                                        Events
                                 </Link>
                             </li>
                             <li className="nav-item">

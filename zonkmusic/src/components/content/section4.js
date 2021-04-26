@@ -17,7 +17,7 @@ class Mysectionfour extends Component {
                         <h5 className="text-warning">
                             
                         </h5>
-                        <h3 className="text- display-4" id="myred2">
+                        <h3 className="text- display-4" id="eve">
                             
                             Blogs & Articles
                         </h3>

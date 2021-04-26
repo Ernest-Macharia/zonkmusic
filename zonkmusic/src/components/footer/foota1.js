@@ -1,15 +1,15 @@
 import { Component } from "react";
 
-import img1 from '../../images/foot1/foot1a.webp';
-import img2 from '../../images/foot1/foot1b.webp'
-import img3 from '../../images/foot1/footc.webp';
-import img4 from '../../images/foot1/footd.webp'
+import img1 from '../../images/foot1/inst1.jpg';
+import img2 from '../../images/foot1/inst2.jpg'
+import img3 from '../../images/foot1/inst3.jpg';
+import img4 from '../../images/foot1/inst4.jpg'
 
 
 class Footaone extends Component {
 
     render() {
-        let instlink = "https://www.instagram.com/essex_fame/?hl=en";
+        let instlink = "https://www.instagram.com/zonkmusic/";
 
 
         return (
@@ -21,7 +21,7 @@ class Footaone extends Component {
                             
                             <div className="row">
                                 <div className="col-md-6">
-                                    <h2 id="myred2" className="display-4 font-weight">
+                                    <h2 id="eve" className="display-4 font-weight">
                                         Instagram
                                     </h2>
                                 </div>
